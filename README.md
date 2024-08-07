@@ -12,6 +12,8 @@ The datasets consists of several medical predictor variables and one target vari
 
 Before conducting the analysis, performed a thorough data quality check to ensure data integrity and consistency. This process involved handling spelling check, adding conditional columns, and addressing any inconsistencies in the dataset.
 
+![Coronavirus2](https://github.com/user-attachments/assets/2679c39e-7fca-43d4-928c-031a666162fa)
+
 ### Analysis done on:
 
 Cards: Total Patients, Patients Hospitalized, Total Patients Survived, Total Patients Died, Total Male Patients, Total Female Patients, Average Age, Patients Returning Home, Chronic Obstructive Pulmonary Patients, Asthma Patients, Tobacco User Patients, Cardio Vascular Patients, Diabetes Patients, Hypertension Patients, Obesity Patients, Renal Chronic Patients, Immunosuppressed Patients, Other Disease Patients.
