@@ -38,37 +38,37 @@ Stacked Bar Chart: Patients Survived and Died with Ventilator.
 
 Average Age = AVERAGE(Covid_Dataset[AGE])
 
-Female Count = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[Gender] = "Female" )
+Female Count = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[Gender] = "Female")
 
-Male Count = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[Gender] = "Male" )
+Male Count = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[Gender] = "Male")
 
-Patient Hospitalized = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[PATIENT_TYPE] = 2 )
+Patient Hospitalized = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[PATIENT_TYPE] = 2)
 
-Patient Returning Home = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[PATIENT_TYPE] = 1 )
+Patient Returning Home = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[PATIENT_TYPE] = 1)
 
-Total Asthma Patients = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[ASTHMA] = 1 )
+Total Asthma Patients = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[ASTHMA] = 1)
 
-Total Cardio Vascular Patients = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[CARDIOVASCULAR] = 1 )
+Total Cardio Vascular Patients = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[CARDIOVASCULAR] = 1)
 
-Total COPD Patients = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[COPD] = 1 )
+Total COPD Patients = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[COPD] = 1)
 
-Total Diabetes Patients = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[DIABETES] = 1 )
+Total Diabetes Patients = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[DIABETES] = 1)
 
-Total Hypertension Patients = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[HIPERTENSION] = 1 )
+Total Hypertension Patients = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[HIPERTENSION] = 1)
 
-Total Immunosuppressed Patients = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[INMSUPR] = 1 )
+Total Immunosuppressed Patients = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[INMSUPR] = 1)
 
-Total Obesity Patients = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[OBESITY] = 1 )
+Total Obesity Patients = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[OBESITY] = 1)
 
-Total Other Disease Patients = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[OTHER_DISEASE] = 1 )
+Total Other Disease Patients = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[OTHER_DISEASE] = 1)
 
-Total Patient Died = CALCULATE ( COUNTROWS ( Covid_Dataset ),Covid_Dataset[Patient Survived] = 0 )
+Total Patient Died = CALCULATE(COUNTROWS(Covid_Dataset),Covid_Dataset[Patient Survived] = 0)
 
-Total Patient Survived = CALCULATE ( COUNTROWS ( Covid_Dataset ),Covid_Dataset[Patient Survived] = 1 )
+Total Patient Survived = CALCULATE(COUNTROWS(Covid_Dataset),Covid_Dataset[Patient Survived] = 1)
 
 Total Patients = COUNT(Covid_Dataset[Patient Survived])
 
-Total Renal Chronic Patients = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[RENAL_CHRONIC] = 1 )
+Total Renal Chronic Patients = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[RENAL_CHRONIC] = 1)
 
-Total Tobacco User Patients = CALCULATE ( COUNTROWS ( 'Covid_Dataset' ), 'Covid_Dataset'[TOBACCO] = 1 )
+Total Tobacco User Patients = CALCULATE(COUNTROWS('Covid_Dataset'),'Covid_Dataset'[TOBACCO] = 1)
 
