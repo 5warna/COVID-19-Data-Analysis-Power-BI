@@ -8,7 +8,7 @@ This report presents a comprehensive analysis of the COVID-19 dataset, which con
 
 The datasets consists of several medical predictor variables and one target variable (Classification Final). Predictor variables includes age, sex, patient type, different pregnancy-related situations, patients with various conditions, and more.
 
-### DATA QUALITY:
+### Data Quality:
 
 Before conducting the analysis, performed a thorough data quality check to ensure data integrity and consistency. This process involved handling spelling check, adding conditional columns, and addressing any inconsistencies in the dataset.
 
